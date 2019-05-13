@@ -13,17 +13,11 @@ You should clone this repository and run `npm install` from the correct director
 
 If you open your browser and point it to that URL, you should see a blank HMTL.
 
-## Tasks
+## Comments
 
-Now that you’re setup, you will need to complete a few tasks - the core functionality of the application is to display information around _todo_ tasks.
+This is my submission for the Eurostar graduate exercise. Below I have listed a few of my reasons for certain decisions and suggested things I would have done differently in a complete project with more time.
 
-Whilst you have been provided with a blank HTML page which loads a CSS and Javascript file, you are able to change all parts of the existing code, as long as we complete the following tasks:
-
-- Load and display the _todo_ items `title` from http://localhost:3000/api/todos ordering them on their ID in descending order
-- Display the total number of _todo_ items
-- Display the completed number of _todo_ items
-- Add styling
-
-## Submission
-
-Once you have completed the task, we ask that you create a github repository and send it over to us for review.
+  - I have used pure JS as that was the foundation for the example. In a real project I would probably use a framework like React.
+  - I've used native functions (e.g. .map. .sort). In a larger project I would use a libary to deal with computations like this, for example Lodash.
+  - All of my JS is local to one file, while in a bigger project I would have factored out much of the code, for example the API call(s), functional components, presentational components etc.
+  - I've manually used Browserify to allow me to require modules in client side JS - in a larger project I would have set up a build to do this automatically, or used Webpack to achieve the same result.

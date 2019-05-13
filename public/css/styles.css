@@ -1,0 +1,21 @@
+.todoTitle {
+  font-size: 15px;
+}
+
+.totalNumberOfTodos {
+  font-size: 20px;
+  border: solid;
+  color: red;
+  width: 310px;
+}
+
+.totalNumberOfCompletedTodos {
+  font-size: 20px;
+  border: solid;
+  color: blue;
+  width: 390px;
+}
+
+.todoTitleHeader {
+  font-size: 30px;
+}

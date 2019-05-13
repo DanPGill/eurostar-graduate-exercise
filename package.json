@@ -18,6 +18,8 @@
   "homepage": "https://github.com/EurostarDigital/graduate_exercise#readme",
   "dependencies": {
     "express": "4.16.4",
-    "nodemon": "1.19.0"
+    "nodemon": "1.19.0",
+    "superagent": "^5.0.5",
+    "superagent-es6-promise": "^1.0.0"
   }
 }
